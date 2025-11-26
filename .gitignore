@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Original WordPress files (don't upload to GitHub)
+wordpress/
+lvd/
+lvdagilis site/
+
+# Integration notes (optional - can remove from gitignore if you want to keep it)
+INTEGRATION-SUMMARY.md
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

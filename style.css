@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #fff5e1 0%, #ffe4e1 25%, #fff0f5 50%, #fffacd 75%, #ffe4e1 100%);
+    background-attachment: fixed;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+        radial-gradient(circle at 20% 30%, rgba(255, 182, 193, 0.4) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(255, 253, 150, 0.4) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(255, 192, 203, 0.3) 0%, transparent 60%),
+        radial-gradient(circle at 10% 80%, rgba(255, 239, 153, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 90% 20%, rgba(255, 182, 193, 0.3) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(224, 224, 224, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+#hero {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+/* Spotlight Project */
+.spotlight-project {
+    margin-bottom: 4rem;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.spotlight-header {
+    max-width: 900px;
+    margin-bottom: 3rem;
+}
+
+.spotlight-header h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.spotlight-intro {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.spotlight-meta {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 1.5rem;
+    line-height: 1.6;
+}
+
+/* Component Works */
+.component-works {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.component-work {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(5px);
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.component-work:nth-child(even) {
+    grid-template-columns: 1fr 1fr;
+}
+
+.component-work:nth-child(even) .component-content {
+    order: 1;
+}
+
+.component-work:nth-child(even) .component-image {
+    order: 2;
+}
+
+.component-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.component-content h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+}
+
+.component-materials {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.component-content p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.component-quote {
+    margin-top: 1.5rem;
+    padding-left: 1.5rem;
+    border-left: 3px solid #ccc;
+}
+
+.component-quote p {
+    font-size: 0.95rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+    max-width: 900px;
+}
+
+.spotlight-footer p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.other-works-heading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-info {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.gallery-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.gallery-info p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Placeholder for text-only projects */
+.gallery-placeholder {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-placeholder h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.gallery-placeholder .project-desc {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+#about, #contact {
+    max-width: 800px;
+}
+
+#about p, #contact p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.press {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.press h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.press ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.press ul li {
+    margin-bottom: 0.5rem;
+}
+
+.press a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.press a:hover {
+    color: #666;
+}
+
+.social-links {
+    margin-top: 1.5rem;
+}
+
+.social-links a {
+    margin-right: 1.5rem;
+    color: #333;
+    text-decoration: underline;
+}
+
+.social-links a:hover {
+    color: #666;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid rgba(224, 224, 224, 0.5);
+    margin-top: 4rem;
+}
+
+footer p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    #hero h2 {
+        font-size: 2rem;
+    }
+
+    .spotlight-project {
+        padding: 1.5rem;
+    }
+
+    .spotlight-header h3 {
+        font-size: 1.8rem;
+    }
+
+    .spotlight-intro {
+        font-size: 1rem;
+    }
+
+    .component-work {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .component-work:nth-child(even) .component-content,
+    .component-work:nth-child(even) .component-image {
+        order: 0;
+    }
+
+    .component-content h4 {
+        font-size: 1.3rem;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
