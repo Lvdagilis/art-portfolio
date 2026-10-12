@@ -1,0 +1,250 @@
+[
+    {
+        "title": "Photography",
+        "category": "main",
+        "visible": false,
+        "image": "images/projects/portraits/image-1.png",
+        "link": "projects/photography.html",
+        "description": "A collection of photographic series and projects."
+    },
+    {
+        "title": "Brick I",
+        "category": "main",
+        "visible": false,
+        "image": "images/projects/brick-i/image-1.jpg",
+        "link": "projects/brick-i.html",
+        "description": ""
+    },
+    {
+        "title": "Brick II",
+        "category": "main",
+        "visible": false,
+        "image": "images/projects/brick-ii/image-1.jpg",
+        "link": "projects/brick-ii.html",
+        "description": ""
+    },
+    {
+        "title": "EgyVienasOne",
+        "category": "main",
+        "visible": true,
+        "image": "images/projects/egyvienasone/image-1.jpg",
+        "link": "projects/egyvienasone.html",
+        "description": ""
+    },
+    {
+        "title": "HUMAN-",
+        "category": "main",
+        "visible": false,
+        "image": "images/projects/human/image-1.png",
+        "link": "projects/human.html",
+        "description": ""
+    },
+    {
+        "title": "Holder for a Brick",
+        "category": "main",
+        "visible": false,
+        "image": "images/projects/holder-for-a-brick/image-1.jpg",
+        "link": "projects/holder-for-a-brick.html",
+        "description": ""
+    },
+    {
+        "title": "Home(less)",
+        "category": "main",
+        "visible": true,
+        "image": "images/projects/homeless/image-1.jpg",
+        "link": "projects/homeless.html",
+        "description": ""
+    },
+    {
+        "title": "Living Plant",
+        "category": "main",
+        "visible": false,
+        "image": "images/projects/living-plant/image-1.jpg",
+        "link": "projects/living-plant.html",
+        "description": ""
+    },
+    {
+        "title": "New Dreams - Projections",
+        "category": "main",
+        "visible": true,
+        "image": "images/projects/new-dreams-projections/image-1.jpg",
+        "link": "projects/new-dreams-projections.html",
+        "description": ""
+    },
+    {
+        "title": "PIRVideo",
+        "category": "main",
+        "visible": true,
+        "image": "images/projects/pirvideo/image-1.jpg",
+        "link": "projects/pirvideo.html",
+        "description": ""
+    },
+    {
+        "title": "Saxophone Quartet",
+        "category": "main",
+        "visible": true,
+        "image": "images/projects/saxophone-quartet/image-1.jpg",
+        "link": "projects/saxophone-quartet.html",
+        "description": ""
+    },
+    {
+        "title": "The Modern Prometheus",
+        "category": "main",
+        "visible": true,
+        "image": "images/projects/the-modern-prometheus/image-1.JPG",
+        "link": "projects/the-modern-prometheus.html",
+        "description": ""
+    },
+    {
+        "title": "VANDENYS",
+        "category": "main",
+        "visible": true,
+        "image": "images/projects/vandenys/image-1.jpg",
+        "link": "projects/vandenys.html",
+        "description": ""
+    },
+    {
+        "title": "y i",
+        "category": "main",
+        "visible": true,
+        "image": "images/projects/y-i/image-1.jpg",
+        "link": "projects/y-i.html",
+        "description": ""
+    },
+    {
+        "title": "100th Anniversary of Lithuanian Statehood",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/100th-anniversary-of-lithuanian-statehood/image-1.jpg",
+        "link": "projects/100th-anniversary-of-lithuanian-statehood.html",
+        "description": ""
+    },
+    {
+        "title": "Ben Cruachan",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/ben-cruachan/image-1.png",
+        "link": "projects/ben-cruachan.html",
+        "description": ""
+    },
+    {
+        "title": "Caminito Del Rey",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/caminito-del-rey/image-1.jpg",
+        "link": "projects/caminito-del-rey.html",
+        "description": ""
+    },
+    {
+        "title": "Conversation with a wildflower.",
+        "category": "photography",
+        "visible": true,
+        "image": "images/projects/conversation-with-a-wildflower/image-1.jpg",
+        "link": "projects/conversation-with-a-wildflower.html",
+        "description": ""
+    },
+    {
+        "title": "Dream On! Materials & Textures",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/dream-on-materials-textures/image-1.jpg",
+        "link": "projects/dream-on-materials-textures.html",
+        "description": ""
+    },
+    {
+        "title": "Elze",
+        "category": "photography",
+        "visible": true,
+        "image": "images/projects/elze/image-1.jpg",
+        "link": "projects/elze.html",
+        "description": ""
+    },
+    {
+        "title": "GMD Vilnius 2018",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/gmd-vilnius-2018/image-1.jpg",
+        "link": "projects/gmd-vilnius-2018.html",
+        "description": ""
+    },
+    {
+        "title": "Highlands (June 2017)",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/highlands-june-2017/image-1.jpg",
+        "link": "projects/highlands-june-2017.html",
+        "description": ""
+    },
+    {
+        "title": "People",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/people/image-1.jpg",
+        "link": "projects/people.html",
+        "description": ""
+    },
+    {
+        "title": "Portraits",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/portraits/image-1.png",
+        "link": "projects/portraits.html",
+        "description": ""
+    },
+    {
+        "title": "Portraits of Irma",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/portraits-of-irma/image-1.jpg",
+        "link": "projects/portraits-of-irma.html",
+        "description": ""
+    },
+    {
+        "title": "Scanography",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/scanography/image-1.png",
+        "link": "projects/scanography.html",
+        "description": ""
+    },
+    {
+        "title": "Venice, Part I",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/venice-part-i/image-1.jpg",
+        "link": "projects/venice-part-i.html",
+        "description": ""
+    },
+    {
+        "title": "Venice, Part II",
+        "category": "photography",
+        "visible": false,
+        "image": "images/placeholder.jpg",
+        "link": "projects/venice-part-ii.html",
+        "description": ""
+    },
+    {
+        "title": "Venice, Part III",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/venice-part-iii/image-1.jpg",
+        "link": "projects/venice-part-iii.html",
+        "description": ""
+    },
+    {
+        "title": "Water",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/water/image-1.jpg",
+        "link": "projects/water.html",
+        "description": ""
+    },
+    {
+        "title": "Websites",
+        "category": "photography",
+        "visible": false,
+        "image": "images/projects/websites/image-1.png",
+        "link": "projects/websites.html",
+        "description": ""
+    }
+]

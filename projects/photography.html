@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography - Lukas V. Dagilis</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+        .gallery-item {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            transition: opacity 0.3s ease;
+        }
+        .gallery-item:hover {
+            opacity: 0.8;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 250px; /* Fixed height for consistency */
+            object-fit: cover;
+            display: block;
+            background-color: #f0f0f0;
+        }
+        .gallery-info {
+            padding-top: 1rem;
+        }
+        .gallery-info h3 {
+            font-size: 1.2rem;
+            margin: 0;
+            font-weight: normal;
+        }
+        .back-link {
+            display: block;
+            margin-top: 4rem;
+            text-align: center;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="generative-bg"></canvas>
+    <header>
+        <nav>
+            <h1><a href="../index.html">Lukas Vytautas Dagilis</a></h1>
+            <ul>
+                <li><a href="../index.html#work">Work</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section style="max-width: 1200px; margin: 0 auto; padding: 4rem 1rem;">
+            <h2>Photography</h2>
+<div class="gallery">
+                <div class="gallery-item">
+                    <a href="100th-anniversary-of-lithuanian-statehood.html">
+                        <img src="../images/projects/100th-anniversary-of-lithuanian-statehood/image-1.jpg" alt="100th Anniversary of Lithuanian Statehood" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>100th Anniversary of Lithuanian Statehood</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="ben-cruachan.html">
+                        <img src="../images/projects/ben-cruachan/image-1.png" alt="Ben Cruachan" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Ben Cruachan</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="caminito-del-rey.html">
+                        <img src="../images/projects/caminito-del-rey/image-1.jpg" alt="Caminito Del Rey" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Caminito Del Rey</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="conversation-with-a-wildflower.html">
+                        <img src="../images/projects/conversation-with-a-wildflower/image-1.jpg" alt="Conversation with a wildflower." loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Conversation with a wildflower.</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="dream-on-materials-textures.html">
+                        <img src="../images/projects/dream-on-materials-textures/image-1.jpg" alt="Dream On! Materials & Textures" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Dream On! Materials & Textures</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="elze.html">
+                        <img src="../images/projects/elze/image-1.jpg" alt="Elze" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Elze</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="gmd-vilnius-2018.html">
+                        <img src="../images/projects/gmd-vilnius-2018/image-1.jpg" alt="GMD Vilnius 2018" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>GMD Vilnius 2018</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="highlands-june-2017.html">
+                        <img src="../images/projects/highlands-june-2017/image-1.jpg" alt="Highlands (June 2017)" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Highlands (June 2017)</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="people.html">
+                        <img src="../images/projects/people/image-1.jpg" alt="People" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>People</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="portraits.html">
+                        <img src="../images/projects/portraits/image-1.png" alt="Portraits" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Portraits</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="portraits-of-irma.html">
+                        <img src="../images/projects/portraits-of-irma/image-1.jpg" alt="Portraits of Irma" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Portraits of Irma</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="scanography.html">
+                        <img src="../images/projects/scanography/image-1.png" alt="Scanography" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Scanography</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="venice-part-i.html">
+                        <img src="../images/projects/venice-part-i/image-1.jpg" alt="Venice, Part I" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Venice, Part I</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="venice-part-ii.html">
+                        <img src="../images/placeholder.jpg" alt="Venice, Part II" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Venice, Part II</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="venice-part-iii.html">
+                        <img src="../images/projects/venice-part-iii/image-1.jpg" alt="Venice, Part III" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Venice, Part III</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="water.html">
+                        <img src="../images/projects/water/image-1.jpg" alt="Water" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Water</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="websites.html">
+                        <img src="../images/projects/websites/image-1.png" alt="Websites" loading="lazy">
+                        <div class="gallery-info">
+                            <h3>Websites</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="../index.html#work" class="back-link">← Back to Works</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lukas Vytautas Dagilis. All rights reserved.</p>
+    </footer>
+    <script src="../generative_bg.js"></script>
+</body>
+</html>
